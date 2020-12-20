@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import { useEffect, useState } from 'react'
 import './App.css';
-import Header from './Header'
-import Home from './Home'
-import Cart from './Cart'
+import Header from './components/Header'
+import Home from './components/Home'
+import Cart from './components/Cart'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import { db } from './firebase'
+import { db } from './components/firebase'
 
 function App() { 
 
